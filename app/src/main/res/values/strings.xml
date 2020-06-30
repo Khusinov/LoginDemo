@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Verum TV</string>
+    <string name="Login" tools:ignore="DuplicateDefinition">Login</string>
+    <string name="name2" tools:ignore="DuplicateDefinition">Name2</string>
+    <string name="password">Password</string>
+    <string name="kirish">Kirish</string>
+    <string name="login_va_parolni_kiriting">Login va Parolni Kiriting</string>
+
+    <string name="login">Login</string>
+    <string name="new_user_sign_up">"Ro'yhatdan o'tish"</string>
+    <string name="or">or</string>
+    <string name="o_qituvchilar">O\'qituvchilar</string>
+    <string name="ota_onalar">Ota Onalar</string>
+    <string name="adminlar">Adminlar</string>
+    <string name="xududlar">Xududlar</string>
+</resources>
