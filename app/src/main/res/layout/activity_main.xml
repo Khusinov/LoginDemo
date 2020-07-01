@@ -34,7 +34,7 @@
             <EditText
                 android:id="@+id/username_input"
                 android:layout_toRightOf="@+id/username_icon"
-                android:hint="Email"
+                android:hint="Username"
                 android:textSize="12sp"
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"
@@ -72,7 +72,7 @@
             <EditText
                 android:id="@+id/pass"
                 android:layout_toRightOf="@+id/icon"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:textSize="12sp"
                 android:paddingLeft="17dp"
                 android:paddingTop="15dp"
@@ -112,19 +112,19 @@
             android:layout_marginLeft="62dp"
             android:layout_marginRight="62dp"
             android:layout_marginTop="18.7dp"
-            android:text="Login"
+            android:text="@string/login"
             android:background="@drawable/blue_fill__rounded_color"
             tools:ignore="MissingClass" />
 
         <TextView
-            android:id="@+id/forgot"
+            android:id="@+id/Btn_sign"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="10.5sp"
             android:textColor="#1566e0"
             android:layout_marginTop="12dp"
             android:layout_gravity="center"
-            android:text="FORGOT PASSWORD ?"
+            android:text="@string/new_user"
             tools:ignore="MissingClass" />
 
 
@@ -148,17 +148,16 @@
             android:orientation="horizontal">
 
 
-
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginBottom="35dp"
-            android:orientation="horizontal">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginBottom="35dp"-->
+<!--            android:orientation="horizontal">-->
 
-        </LinearLayout>
+<!--        </LinearLayout>-->
 
 
 

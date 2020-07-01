@@ -13,4 +13,7 @@
     <string name="ota_onalar">Ota Onalar</string>
     <string name="adminlar">Adminlar</string>
     <string name="xududlar">Xududlar</string>
+    <string name="new_user">NEW USER?</string>
+
+
 </resources>

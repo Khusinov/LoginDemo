@@ -7,11 +7,13 @@
     android:orientation="vertical"
     tools:context=".SecondActivity"
     android:background="#abbbdd"
+
     >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:background="@color/colorAccent">
     <ImageView
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -29,17 +31,16 @@
             android:textSize="30sp"
             android:layout_margin="4dp"
             android:textColor="#f9fafc"
-            android:background="#1751ce"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
              />
-
 </LinearLayout>
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:background="@color/colorAccent">
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -57,15 +58,15 @@
             android:textSize="30sp"
             android:textColor="#f9fafc"
             android:background="#1751ce"
+            android:padding="8dp"
             />
-
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:background="@color/colorAccent">
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -82,35 +83,35 @@
             android:text="@string/adminlar"
             android:textSize="30sp"
             android:textColor="#f9fafc"
-
+            android:padding="8dp"
             android:background="#1751ce"
             />
 
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:background="@color/colorAccent">
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/xivaa"
             android:layout_margin="8dp"
             android:layout_marginTop="16dp"/>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
             android:text="@string/xududlar"
             android:textSize="30sp"
             android:textColor="#f9fafc"
             android:background="#1751ce"
+            android:padding="8dp"
             />
-
     </LinearLayout>
 </LinearLayout>
